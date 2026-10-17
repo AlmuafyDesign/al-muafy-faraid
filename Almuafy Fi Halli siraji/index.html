@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#054b7c">
+  <meta name="description" content="আল মুয়াফি — অফলাইনে ব্যবহারযোগ্য ফারায়েজ হিসাব ও সিরাজী পাঠাগার">
+  <title>আল মুয়াফি | ফারায়েজ হিসাব</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png">
+  <script src="https://cdn.tailwindcss.com" async></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header"><div><img class="brand-logo" src="icons/logo-bg.jpg" alt="আল মুয়াফি লোগো"><div><h1>আল মুয়াফি</h1><p>ফারায়েজ হিসাব · স্থানীয় ও অফলাইন</p></div></div><button id="installBtn" class="icon-button" hidden aria-label="হোম স্ক্রিনে যোগ করুন">＋</button></header>
+  <main>
+    <section id="calculator" class="page active" aria-labelledby="calcTitle">
+      <div class="page-heading"><p class="eyebrow">Hanafi Fiqh · হিসাব সহায়ক</p><h2 id="calcTitle">উত্তরাধিকার হিসাব</h2><p class="muted">ঋণ, কাফন-দাফন ও বৈধ অসিয়ত বাদ দেওয়ার পরের সম্পদ লিখুন।</p></div>
+      <form id="calcForm" novalidate>
+        <label class="field estate-field"><span>বণ্টনযোগ্য সম্পদ (৳)</span><input id="estate" name="estate" type="number" min="0" step="0.01" inputmode="decimal" placeholder="যেমন 1000000" required></label>
+        <div class="heirs-heading"><div><h3>জীবিত ওয়ারিশ</h3><p class="muted">প্রযোজ্য ব্যক্তিদের সংখ্যা দিন</p></div><button type="button" id="clearBtn" class="text-button">মুছুন</button></div>
+        <div id="heirInputs" class="heir-grid"></div>
+        <p id="formError" class="error" role="alert" hidden></p>
+        <button class="primary-button" type="submit">হিসাব করুন <span aria-hidden="true">→</span></button>
+      </form>
+      <div id="results" class="results" hidden aria-live="polite"></div>
+    </section>
+    <section id="library" class="page" aria-labelledby="libraryTitle" hidden>
+      <div class="page-heading"><p class="eyebrow">Siraji · Local library</p><h2 id="libraryTitle">সিরাজী পাঠাগার</h2><p class="muted">অধ্যায় অনুযায়ী সংরক্ষিত পাঠ ও দলিল।</p></div>
+      <div id="libraryContent" class="library-content"><div class="empty-state">পাঠাগারের জন্য <code>data/siraji.json</code>-এ বিষয়বস্তু যোগ করুন।</div></div>
+    </section>
+    <section id="about" class="page about-page" aria-labelledby="aboutTitle" hidden>
+      <div class="page-heading"><p class="eyebrow">পরিচিতি · About</p><h2 id="aboutTitle">আমার সম্পর্কে</h2><p class="muted">আল মুয়াফি সিরাজী অ্যাপের নির্মাতা ও পরিচালকের পরিচিতি।</p></div>
+      <article class="about-profile-card">
+        <div class="about-monogram" aria-hidden="true">عبد الله</div>
+        <div class="about-profile-copy">
+          <p class="about-kicker">নির্মাতা ও পরিচালক</p>
+          <h3>মুফতি আব্দুল্লাহ আল মুয়াফি</h3>
+          <div class="about-titles" aria-label="উপাধি"><span>হাফিজ</span><span>মাওলানা</span><span>মুফতি</span></div>
+        </div>
+      </article>
+      <div class="about-card-grid">
+        <article class="about-card">
+          <span class="about-card-icon" aria-hidden="true">✦</span>
+          <div><p class="about-label">শিক্ষাগত যোগ্যতা</p>
+            <ul class="about-education">
+              <li><strong>তাকমীল ফিল হাদিস (মাস্টার্স)</strong><span>মারকাযুল ফিকরিল ইসলামী, বসুন্ধরা, ঢাকা।</span></li>
+              <li><strong>ইফতা</strong><span>জামিয়া ইসলামিয়া আনওয়ারুল উলুম হামিদনগর, বরুণা।</span></li>
+            </ul>
+          </div>
+        </article>
+        <article class="about-card about-role-card">
+          <span class="about-card-icon" aria-hidden="true">▤</span>
+          <div><p class="about-label">পেশাগত পরিচয়</p><p class="about-value">সিনিয়র শিক্ষক ও মুহাদ্দিস।</p></div>
+        </article>
+        <article class="about-card about-purpose-card">
+          <span class="about-card-icon" aria-hidden="true">۞</span>
+          <div><p class="about-label">সিরাজী অ্যাপ তৈরির উদ্দেশ্য</p><p class="about-purpose">ইলমুল ফারায়েজের হিসাব সহজ করা, নির্ভুলভাবে উত্তরাধিকার বণ্টন নির্ণয় এবং সিরাজীসহ নির্ভরযোগ্য ফিকহি গ্রন্থের আলোকে মাসআলা যাচাইয়ের সুবিধার্থে এই অ্যাপটি তৈরি করা হয়েছে। এর মূল উদ্দেশ্য হলো, প্রযুক্তির মাধ্যমে ইসলামের গুরুত্বপূর্ণ এই ইলমের খেদমত করা এবং আলেম-উলামা ও তালিবুল ইলমের উপকারে আসা।</p></div>
+        </article>
+      </div>
+    </section>
+    <section id="settings" class="page" aria-labelledby="settingsTitle" hidden>
+      <div class="page-heading"><p class="eyebrow">Preferences · On this device</p><h2 id="settingsTitle">সেটিংস</h2></div>
+      <article class="setting-card premium-setting"><div><span class="premium-label">✦ Premium</span><h3>Premium Demo Mode</h3><p class="muted">বিস্তারিত হিসাব ও পূর্ণ প্রতিবেদন চালু করুন।</p></div><label class="switch"><input id="premiumToggle" type="checkbox" aria-label="Premium Demo Mode"><span></span></label></article>
+      <article class="setting-card"><div><h3>স্থানীয় তথ্য</h3><p class="muted">হিসাব এই ব্রাউজারেই থাকে; কোনো অ্যাকাউন্ট বা ক্লাউড ব্যাকআপ নেই।</p></div></article>
+      <button type="button" class="secondary-button" id="deleteDataBtn">এই ডিভাইসের সংরক্ষিত তথ্য মুছুন</button>
+    </section>
+  </main>
+  <nav class="bottom-nav" aria-label="প্রধান নেভিগেশন"><button class="nav-item active" data-page="calculator"><span>⌗</span><small>হিসাব</small></button><button class="nav-item" data-page="library"><span>▤</span><small>পাঠাগার</small></button><button class="nav-item" data-page="about"><span>◉</span><small>আমার সম্পর্কে</small></button><button class="nav-item" data-page="settings"><span>⚙</span><small>সেটিংস</small></button></nav>
+  <div id="installPrompt" class="install-prompt" hidden><span>অফলাইনে ব্যবহারের জন্য অ্যাপটি যোগ করুন</span><button id="installAction" class="primary-button">ইনস্টল</button><button id="installDismiss" class="text-button">এখন নয়</button></div>
+  <script src="data/siraji.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

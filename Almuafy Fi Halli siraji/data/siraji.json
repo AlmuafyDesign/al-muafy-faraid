@@ -1,0 +1,965 @@
+{
+  "source": "User-provided الدليل.odt",
+  "sourceNote": "Arabic dalil and Arabic share text transcribed from the supplied Siraji evidence document; no Bengali replacement dalil.",
+  "chapters": [
+    {
+      "id": "father",
+      "title": "أحوال الأب",
+      "titleBn": "পিতা",
+      "sections": [
+        {
+          "id": "father-1",
+          "condition": "father.fixed-male-descendant",
+          "keys": [
+            "father"
+          ],
+          "title": "الفرض المطلق : السدس وذلك مع الابن أو ابن الابن وإن سفل .",
+          "arabic": "وَ لِاَبَوَیۡہِ لِکُلِّ وَاحِدٍ مِّنۡہُمَا السُّدُسُ مِمَّا تَرَکَ اِنۡ کَانَ لَہٗ وَلَدٌ (سورة النساء: ١١)",
+          "sourceRow": "1"
+        },
+        {
+          "id": "father-2",
+          "condition": "father.asabah-female-descendant",
+          "keys": [
+            "father"
+          ],
+          "title": "الفرض مع التعصيب: مع الابنة أو ابنة الابن وإن سفلت",
+          "arabic": "قالَ رَسُولُ اللَّهِ ﷺ: «أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا، فَمَا بَقِيَ فَهوَ لأَوْلَى رَجُلٍ ذَكَرٍ». البخاري ( 6735)",
+          "sourceRow": "2"
+        },
+        {
+          "id": "father-3",
+          "condition": "father.asabah",
+          "keys": [
+            "father"
+          ],
+          "title": "التعصيب المحض : عند عدم الولد وولد الابن وإن سفل",
+          "arabic": "قالَ رَسُولُ اللَّهِ ﷺ: «أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا، فَمَا بَقِيَ فَهوَ لأَوْلَى رَجُلٍ ذَكَرٍ». البخاري ( 6735)",
+          "sourceRow": "3"
+        }
+      ]
+    },
+    {
+      "id": "grandfather",
+      "title": "أحوال الجد",
+      "titleBn": "দাদা",
+      "sections": [
+        {
+          "id": "grandfather-1",
+          "condition": "grandfather.fixed-male-descendant",
+          "keys": [
+            "grandfather"
+          ],
+          "title": "الفرض المطلق : السدس وذلك مع الابن أو ابن الابن وإن سفل .",
+          "arabic": "وَ لِاَبَوَیۡہِ لِکُلِّ وَاحِدٍ مِّنۡہُمَا السُّدُسُ مِمَّا تَرَکَ اِنۡ کَانَ لَہٗ وَلَدٌ (سورة النساء: ١١)",
+          "sourceRow": "1"
+        },
+        {
+          "id": "grandfather-2",
+          "condition": "grandfather.asabah-female-descendant",
+          "keys": [
+            "grandfather"
+          ],
+          "title": "الفرض مع التعصيب: مع الابنة أو ابنة الابن وإن سفلت",
+          "arabic": "قالَ رَسُولُ اللَّهِ ﷺ: «أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا، فَمَا بَقِيَ فَهوَ لأَوْلَى رَجُلٍ ذَكَرٍ». البخاري ( 6735)",
+          "sourceRow": "2"
+        },
+        {
+          "id": "grandfather-3",
+          "condition": "grandfather.asabah",
+          "keys": [
+            "grandfather"
+          ],
+          "title": "التعصيب المحض : عند عدم الولد وولد الابن وإن سفل",
+          "arabic": "قالَ رَسُولُ اللَّهِ ﷺ: «أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا، فَمَا بَقِيَ فَهوَ لأَوْلَى رَجُلٍ ذَكَرٍ». البخاري ( 6735)",
+          "sourceRow": "3"
+        },
+        {
+          "id": "grandfather-4",
+          "condition": "grandfather.blocked-by-father",
+          "keys": [
+            "grandfather"
+          ],
+          "title": "يسقط الجد بالأب",
+          "arabic": "للقاعدة العامة: «من أدلى إلى الميت بواسطة لا يرث مع وجود تلك الواسطة»",
+          "sourceRow": "4"
+        }
+      ]
+    },
+    {
+      "id": "maternalSibling",
+      "title": "أحوال أولاد الأم (الإخوة والأخوات لإم)",
+      "titleBn": "বৈপিত্রেয় ভাইবোন",
+      "sections": [
+        {
+          "id": "maternalSibling-1",
+          "condition": "maternal.one-sixth",
+          "keys": [
+            "maternalBrother",
+            "maternalSister"
+          ],
+          "title": "السدس للواحد",
+          "arabic": "وَاِنۡ کَانَ رَجُلٌ یُّوۡرَثُ کَلٰلَۃً اَوِ امۡرَاَۃٌ وَّلَہٗۤ اَخٌ اَوۡ اُخۡتٌ فَلِکُلِّ وَاحِدٍ مِّنۡہُمَا السُّدُسُ",
+          "sourceRow": "1"
+        },
+        {
+          "id": "maternalSibling-2",
+          "condition": "maternal.one-third",
+          "keys": [
+            "maternalBrother",
+            "maternalSister"
+          ],
+          "title": "الثلث للاثنين فصاعدا، ذكورهم وإناثهم في القسمة والاستحقاق سواء",
+          "arabic": "فَاِنۡ کَانُوۡۤا اَکۡثَرَ مِنۡ ذٰلِکَ فَہُمۡ شُرَکَآءُ فِی الثُّلُثِ",
+          "sourceRow": "2"
+        },
+        {
+          "id": "maternalSibling-3",
+          "condition": "maternal.blocked",
+          "keys": [
+            "maternalBrother",
+            "maternalSister"
+          ],
+          "title": "يسقطون بالولد وولد الابن وإن سفل، وبالأب والجد بالاتفاق",
+          "arabic": "للقاعدة العامة: «من أدلى إلى الميت بواسطة لا يرث مع وجود تلك الواسطة»",
+          "sourceRow": "3"
+        }
+      ]
+    },
+    {
+      "id": "husband",
+      "title": "أحوال الزوج",
+      "titleBn": "স্বামী",
+      "sections": [
+        {
+          "id": "husband-1",
+          "condition": "husband.no-descendant",
+          "keys": [
+            "husband"
+          ],
+          "title": "النصف عند عدم الولد وولد الابن وإن سفل",
+          "arabic": "وَلَکُمۡ نِصۡفُ مَا تَرَکَ اَزۡوَاجُکُمۡ اِنۡ لَّمۡ یَکُنۡ لَّہُنَّ وَلَدٌ (Surat - 4, Ayat - 12)",
+          "sourceRow": "1"
+        },
+        {
+          "id": "husband-2",
+          "condition": "husband.with-descendant",
+          "keys": [
+            "husband"
+          ],
+          "title": "الربع مع الولد أو ولد الابن وإن سفل",
+          "arabic": "فَاِنۡ کَانَ لَہُنَّ وَلَدٌ فَلَکُمُ الرُّبُعُ (Surat - 4, Ayat - 12)",
+          "sourceRow": "2"
+        }
+      ]
+    },
+    {
+      "id": "wife",
+      "title": "أحوال الزوجة",
+      "titleBn": "স্ত্রী",
+      "sections": [
+        {
+          "id": "wife-1",
+          "condition": "wife.no-descendant",
+          "keys": [
+            "wife"
+          ],
+          "title": "الربع للواحدة فصاعدة عند عدم الولد وولد الابن وإن سفل.",
+          "arabic": "وَلَہُنَّ الرُّبُعُ مِمَّا تَرَکۡتُمۡ اِنۡ لَّمۡ یَکُنۡ لَّکُمۡ وَلَدٌ (Surat - 4, Ayat - 12)",
+          "sourceRow": "1"
+        },
+        {
+          "id": "wife-2",
+          "condition": "wife.with-descendant",
+          "keys": [
+            "wife"
+          ],
+          "title": "الثمن مع الولدأو ولد الابن وإن سفل.",
+          "arabic": "فَاِنۡ کَانَ لَکُمۡ وَلَدٌ فَلَہُنَّ الثُّمُنُ (Surat - 4, Ayat - 12)",
+          "sourceRow": "2"
+        }
+      ]
+    },
+    {
+      "id": "daughter",
+      "title": "أحوال بنات الصلب",
+      "titleBn": "কন্যা",
+      "sections": [
+        {
+          "id": "daughter-1",
+          "condition": "daughter.one",
+          "keys": [
+            "daughter"
+          ],
+          "title": "النصف للواحدة",
+          "arabic": "وَاِنۡ کَانَتۡ وَاحِدَۃً فَلَہَا النِّصۡفُ",
+          "sourceRow": "1"
+        },
+        {
+          "id": "daughter-2",
+          "condition": "daughter.multiple",
+          "keys": [
+            "daughter"
+          ],
+          "title": "الثلثان للاثنتين فصاعدة",
+          "arabic": "فَاِنۡ کُنَّ نِسَآءً فَوۡقَ اثۡنَتَیۡنِ فَلَہُنَّ ثُلُثَا مَا تَرَکَ",
+          "sourceRow": "2"
+        },
+        {
+          "id": "daughter-3",
+          "condition": "daughter.with-son",
+          "keys": [
+            "daughter"
+          ],
+          "title": "مع الابن للذكر مثل حظ الأنثيين وهو يعصبهنَّ.",
+          "arabic": "یُوۡصِیۡکُمُ اللّٰہُ فِیۡۤ اَوۡلَادِکُمۡ ٭ لِلذَّکَرِ مِثۡلُ حَظِّ الۡاُنۡثَیَیۡنِ",
+          "sourceRow": "3"
+        }
+      ]
+    },
+    {
+      "id": "sonsDaughter",
+      "title": "أحوال بنات الابن",
+      "titleBn": "পুত্রের কন্যা",
+      "sections": [
+        {
+          "id": "sonsDaughter-1",
+          "condition": "sonsDaughter.one",
+          "keys": [
+            "sonsDaughter"
+          ],
+          "title": "النصف للواحدة",
+          "arabic": "وَاِنۡ کَانَتۡ وَاحِدَۃً فَلَہَا النِّصۡفُ",
+          "sourceRow": "1"
+        },
+        {
+          "id": "sonsDaughter-2",
+          "condition": "sonsDaughter.multiple",
+          "keys": [
+            "sonsDaughter"
+          ],
+          "title": "الثلثان للاثنتين فصاعدة عند عدم بنات الصلب",
+          "arabic": "فَاِنۡ کُنَّ نِسَآءً فَوۡقَ اثۡنَتَیۡنِ فَلَہُنَّ ثُلُثَا مَا تَرَکَ",
+          "sourceRow": "2"
+        },
+        {
+          "id": "sonsDaughter-3",
+          "condition": "sonsDaughter.with-daughter",
+          "keys": [
+            "sonsDaughter"
+          ],
+          "title": "ولهن السدس مع الواحدة الصلبية تكملة للثلثين",
+          "arabic": "قَضَى النَّبِيُّ ﷺ: لِلاِبْنَةِ النِّصْفُ، وَلاِبْنَةِ ابْنٍ السُّدُسُ تَكْمِلَةَ الثُّلُثَيْنِ . البخاري ( 6736)",
+          "sourceRow": "3"
+        },
+        {
+          "id": "sonsDaughter-4",
+          "condition": "sonsDaughter.blocked-by-daughters",
+          "keys": [
+            "sonsDaughter"
+          ],
+          "title": "لا يرثن مع الصلبيتين",
+          "arabic": "القاعدة : لا يزاد حق البنات على الثلثين",
+          "sourceRow": "4"
+        },
+        {
+          "id": "sonsDaughter-5",
+          "condition": "sonsDaughter.with-grandson",
+          "keys": [
+            "sonsDaughter"
+          ],
+          "title": "إذا كان غلام بحذائهن أو أسفل منهن فيُعَصِّبُهُنَّوالباقي بينهم للذكر مثل حظ الأنثيين",
+          "arabic": "یُوۡصِیۡکُمُ اللّٰہُ فِیۡۤ اَوۡلَادِکُمۡ ٭ لِلذَّکَرِ مِثۡلُ حَظِّ الۡاُنۡثَیَیۡنِ",
+          "sourceRow": "5"
+        },
+        {
+          "id": "sonsDaughter-6",
+          "condition": "sonsDaughter.blocked-by-son",
+          "keys": [
+            "sonsDaughter"
+          ],
+          "title": "يسقطن بالابن.",
+          "arabic": "للقاعدة العامة: «من أدلى إلى الميت بواسطة لا يرث مع وجود تلك الواسطة»",
+          "sourceRow": "6"
+        }
+      ]
+    },
+    {
+      "id": "fullSibling",
+      "title": "أحوال الأخوات لأب وأمّ",
+      "titleBn": "সহোদর ভাইবোন",
+      "sections": [
+        {
+          "id": "fullSibling-1",
+          "condition": "fullSister.one",
+          "keys": [
+            "fullBrother",
+            "fullSister"
+          ],
+          "title": "النصف للواحدة",
+          "arabic": "وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ النساء:176",
+          "sourceRow": "1"
+        },
+        {
+          "id": "fullSibling-2",
+          "condition": "fullSister.multiple",
+          "keys": [
+            "fullBrother",
+            "fullSister"
+          ],
+          "title": "الثلثان للاثنتين فصاعدةً",
+          "arabic": "فَإِنْ كَانَتَا اثْنَتَيْنِ فَلَهُمَا الثُّلُثَانِ النساء:176",
+          "sourceRow": "2"
+        },
+        {
+          "id": "fullSibling-3",
+          "condition": "fullSibling.with-brother",
+          "keys": [
+            "fullBrother",
+            "fullSister"
+          ],
+          "title": "مع الأخ لأب وأم للذكر مثل حظ الأنثيين، يصرن به عصبة؛ لاستوائهم في القرابة إلى الميت",
+          "arabic": "وَإِنْ كَانُوا إِخْوَةً رِجَالًا وَنِسَاءً فَلِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ النساء:176",
+          "sourceRow": "3"
+        },
+        {
+          "id": "fullSibling-4",
+          "condition": "fullSibling.asabah-with-female-descendant",
+          "keys": [
+            "fullBrother",
+            "fullSister"
+          ],
+          "title": "يصرن عصبة مع البنات أو بنات الابن",
+          "arabic": "وروى عن معاذ بن جبل، وابن مسعود، وعمر، وعلي، وزيد وجمهور من الصحابة أن الأخوات لأبوين، أو لأب عصبة مع البنات",
+          "sourceRow": "4"
+        },
+        {
+          "id": "fullSibling-5",
+          "condition": "fullSibling.blocked",
+          "keys": [
+            "fullBrother",
+            "fullSister"
+          ],
+          "title": "يسقطون بالابن وابن الابن وإن سفل، وبالأب بالاتفاق، وبالجدّ عند أبي حنيفة (ر)",
+          "arabic": "للقاعدة العامة: «من أدلى إلى الميت بواسطة لا يرث مع وجود تلك الواسطة»",
+          "sourceRow": "5"
+        }
+      ]
+    },
+    {
+      "id": "paternalSister",
+      "title": "أحوال الأخوات لأب",
+      "titleBn": "বৈমাত্রেয় বোন",
+      "sections": [
+        {
+          "id": "paternalSister-1",
+          "condition": "paternalSister.one",
+          "keys": [
+            "paternalBrother",
+            "paternalSister"
+          ],
+          "title": "النصف للواحدة",
+          "arabic": "وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ النساء:176",
+          "sourceRow": "1"
+        },
+        {
+          "id": "paternalSister-2",
+          "condition": "paternalSister.multiple",
+          "keys": [
+            "paternalBrother",
+            "paternalSister"
+          ],
+          "title": "الثلثان للاثنتين فصاعدةًعندعدم الأخوات لأب وأم",
+          "arabic": "فَإِنْ كَانَتَا اثْنَتَيْنِ فَلَهُمَا الثُّلُثَانِ النساء:176",
+          "sourceRow": "2"
+        },
+        {
+          "id": "paternalSister-3",
+          "condition": "paternalSister.with-full-sister",
+          "keys": [
+            "paternalBrother",
+            "paternalSister"
+          ],
+          "title": "لهن السدس مع الأخت لأب وأمّ تكملة للثلثين",
+          "arabic": "قَضَى النَّبِيُّ ﷺ: لِلاِبْنَةِ النِّصْفُ، وَلاِبْنَةِ ابْنٍ السُّدُسُ تَكْمِلَةَ الثُّلُثَيْنِ . البخاري ( 6736)",
+          "sourceRow": "3"
+        },
+        {
+          "id": "paternalSister-4",
+          "condition": "paternalSister.blocked-by-full-sisters",
+          "keys": [
+            "paternalBrother",
+            "paternalSister"
+          ],
+          "title": "لا يرثن مع الأختين",
+          "arabic": "القاعدة : لا يزاد حق البنات على الثلثين",
+          "sourceRow": "4"
+        },
+        {
+          "id": "paternalSister-5",
+          "condition": "paternalSibling.with-brother",
+          "keys": [
+            "paternalBrother",
+            "paternalSister"
+          ],
+          "title": "إذا كان معهن أخ لأب فيعصبهن والباقي بينهم للذكر مثل حظ الأنثيين",
+          "arabic": "وَإِنْ كَانُوا إِخْوَةً رِجَالًا وَنِسَاءً فَلِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ النساء:176",
+          "sourceRow": "5"
+        },
+        {
+          "id": "paternalSister-6",
+          "condition": "paternalSister.asabah-with-female-descendant",
+          "keys": [
+            "paternalBrother",
+            "paternalSister"
+          ],
+          "title": "يصرن عصبة مع البنات أو بنات الابن",
+          "arabic": "وروى عن معاذ بن جبل، وابن مسعود، وعمر، وعلي، وزيد وجمهور من الصحابة أن الأخوات لأبوين، أو لأب عصبة مع البنات",
+          "sourceRow": "6"
+        },
+        {
+          "id": "paternalSister-7",
+          "condition": "paternalSibling.blocked",
+          "keys": [
+            "paternalBrother",
+            "paternalSister"
+          ],
+          "title": "بنو الأعيان والعلات كلهم يسقطون بالابن وابن الابن وإن سفل، وبالأب بالاتفاق، وبالجدّ عند أبي حنيفة (ر) ، ويسقط بنو العلات أيضًا بالأخ لأب وأم وبالأخت لأب وأم إذا صارت عصبة.",
+          "arabic": "للقاعدة العامة: «من أدلى إلى الميت بواسطة لا يرث مع وجود تلك الواسطة»",
+          "sourceRow": "7"
+        }
+      ]
+    },
+    {
+      "id": "mother",
+      "title": "أحوال الأمّ",
+      "titleBn": "মাতা",
+      "sections": [
+        {
+          "id": "mother-1",
+          "condition": "mother.one-sixth",
+          "keys": [
+            "mother"
+          ],
+          "title": "السدس مع الولد أو ولد الابن وإن سفل، أو مع الاثنين من الإخوة والأخوات فصاعدا من أي جهة كانا",
+          "arabic": "وَلِاَبَوَیۡہِ لِکُلِّ وَاحِدٍ مِّنۡہُمَا السُّدُسُ # فَاِنۡ کَانَ لَہٗۤ اِخۡوَۃٌ فَلِاُمِّہِ السُّدُسُ",
+          "sourceRow": "1"
+        },
+        {
+          "id": "mother-2",
+          "condition": "mother.one-third",
+          "keys": [
+            "mother"
+          ],
+          "title": "ثُلُثُ الكل عند عدمالولد أو ولد الابن وإن سفل، أو مع الاثنين من الإخوة والأخوات فصاعدا من أي جهة كانا",
+          "arabic": "فَاِنۡ لَّمۡ یَکُنۡ لَّہٗ وَلَدٌ وَّوَرِثَہٗۤ اَبَوٰہُ فَلِاُمِّہِ الثُّلُثُ",
+          "sourceRow": "2"
+        },
+        {
+          "id": "mother-3",
+          "condition": "mother.third-of-remainder",
+          "keys": [
+            "mother"
+          ],
+          "title": "ثلث ما بقي بعد فرض أحد الزوجين، وذلك في مسألتين\nزوج وأبوين، وزوجة وأبوين",
+          "arabic": "لأن عمر رضي الله عنه قضى فيهما بهذا القضاء ، فاتبعه على ذلك عثمان ، وزيد بن ثابت ، وابن مسعود",
+          "sourceRow": "3"
+        }
+      ]
+    },
+    {
+      "id": "grandmother",
+      "title": "أحوال الجدّة",
+      "titleBn": "দাদী/নানী",
+      "sections": [
+        {
+          "id": "grandmother-1",
+          "condition": "grandmother.one-sixth",
+          "keys": [
+            "paternalGrandmother",
+            "maternalGrandmother"
+          ],
+          "title": "السدس لأم كانت أو لأب واحدة كانت أو أكثر إذا كن ثابتاتمتحاذيات في الدرجة.",
+          "arabic": "عن ابن عباس -رضي اللَّه عنهما-: (أن النبي -صلى اللَّه عليه وسلم- أعطى الجدة السدس رواه: ابن أبي شيبة في مصنفه، رقم (٣١٧٩٨).",
+          "sourceRow": "1"
+        },
+        {
+          "id": "grandmother-2",
+          "condition": "grandmother.blocked",
+          "keys": [
+            "paternalGrandmother",
+            "maternalGrandmother"
+          ],
+          "title": "يسقطن كلهن بالأم، والأبويات أيضا بالأب وكذلك بالجد إلا أم الأب وإن علت فإنها ترث مع الجد لأنها ليست من قبله، والقربي من أي جهة كانت تحجب البعدى من أي جهة كانت وارثة كانت القربى أو محجوبة وإذا كانت الجدة ذات قرابة واحدة كأم أم الأب، والأخرى ذات قرابتين أو أكثر كأم أم الأم وهي أيضا أم أب الأب يقسم السدس بينهما عند أبي يوسف له أنصافا باعتبار الأبدان، وعند محمد أثلاثا باعتبار الجهات.",
+          "arabic": "للقاعدة العامة: «من أدلى إلى الميت بواسطة لا يرث مع وجود تلك الواسطة»",
+          "sourceRow": "2"
+        }
+      ]
+    }
+  ],
+  "heirs": [
+    {
+      "id": "father-1",
+      "condition": "father.fixed-male-descendant",
+      "keys": [
+        "father"
+      ],
+      "title": "الفرض المطلق : السدس وذلك مع الابن أو ابن الابن وإن سفل .",
+      "arabic": "وَ لِاَبَوَیۡہِ لِکُلِّ وَاحِدٍ مِّنۡہُمَا السُّدُسُ مِمَّا تَرَکَ اِنۡ کَانَ لَہٗ وَلَدٌ (سورة النساء: ١١)",
+      "sourceRow": "1",
+      "chapter": "أحوال الأب"
+    },
+    {
+      "id": "father-2",
+      "condition": "father.asabah-female-descendant",
+      "keys": [
+        "father"
+      ],
+      "title": "الفرض مع التعصيب: مع الابنة أو ابنة الابن وإن سفلت",
+      "arabic": "قالَ رَسُولُ اللَّهِ ﷺ: «أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا، فَمَا بَقِيَ فَهوَ لأَوْلَى رَجُلٍ ذَكَرٍ». البخاري ( 6735)",
+      "sourceRow": "2",
+      "chapter": "أحوال الأب"
+    },
+    {
+      "id": "father-3",
+      "condition": "father.asabah",
+      "keys": [
+        "father",
+        "son",
+        "sonsSon",
+        "fullBrother",
+        "paternalBrother"
+      ],
+      "title": "التعصيب المحض : عند عدم الولد وولد الابن وإن سفل",
+      "arabic": "قالَ رَسُولُ اللَّهِ ﷺ: «أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا، فَمَا بَقِيَ فَهوَ لأَوْلَى رَجُلٍ ذَكَرٍ». البخاري ( 6735)",
+      "sourceRow": "3",
+      "chapter": "أحوال الأب"
+    },
+    {
+      "id": "grandfather-1",
+      "condition": "grandfather.fixed-male-descendant",
+      "keys": [
+        "grandfather"
+      ],
+      "title": "الفرض المطلق : السدس وذلك مع الابن أو ابن الابن وإن سفل .",
+      "arabic": "وَ لِاَبَوَیۡہِ لِکُلِّ وَاحِدٍ مِّنۡہُمَا السُّدُسُ مِمَّا تَرَکَ اِنۡ کَانَ لَہٗ وَلَدٌ (سورة النساء: ١١)",
+      "sourceRow": "1",
+      "chapter": "أحوال الجد"
+    },
+    {
+      "id": "grandfather-2",
+      "condition": "grandfather.asabah-female-descendant",
+      "keys": [
+        "grandfather"
+      ],
+      "title": "الفرض مع التعصيب: مع الابنة أو ابنة الابن وإن سفلت",
+      "arabic": "قالَ رَسُولُ اللَّهِ ﷺ: «أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا، فَمَا بَقِيَ فَهوَ لأَوْلَى رَجُلٍ ذَكَرٍ». البخاري ( 6735)",
+      "sourceRow": "2",
+      "chapter": "أحوال الجد"
+    },
+    {
+      "id": "grandfather-3",
+      "condition": "grandfather.asabah",
+      "keys": [
+        "grandfather"
+      ],
+      "title": "التعصيب المحض : عند عدم الولد وولد الابن وإن سفل",
+      "arabic": "قالَ رَسُولُ اللَّهِ ﷺ: «أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا، فَمَا بَقِيَ فَهوَ لأَوْلَى رَجُلٍ ذَكَرٍ». البخاري ( 6735)",
+      "sourceRow": "3",
+      "chapter": "أحوال الجد"
+    },
+    {
+      "id": "grandfather-4",
+      "condition": "grandfather.blocked-by-father",
+      "keys": [
+        "grandfather"
+      ],
+      "title": "يسقط الجد بالأب",
+      "arabic": "للقاعدة العامة: «من أدلى إلى الميت بواسطة لا يرث مع وجود تلك الواسطة»",
+      "sourceRow": "4",
+      "chapter": "أحوال الجد"
+    },
+    {
+      "id": "maternalSibling-1",
+      "condition": "maternal.one-sixth",
+      "keys": [
+        "maternalBrother",
+        "maternalSister"
+      ],
+      "title": "السدس للواحد",
+      "arabic": "وَاِنۡ کَانَ رَجُلٌ یُّوۡرَثُ کَلٰلَۃً اَوِ امۡرَاَۃٌ وَّلَہٗۤ اَخٌ اَوۡ اُخۡتٌ فَلِکُلِّ وَاحِدٍ مِّنۡہُمَا السُّدُسُ",
+      "sourceRow": "1",
+      "chapter": "أحوال أولاد الأم (الإخوة والأخوات لإم)"
+    },
+    {
+      "id": "maternalSibling-2",
+      "condition": "maternal.one-third",
+      "keys": [
+        "maternalBrother",
+        "maternalSister"
+      ],
+      "title": "الثلث للاثنين فصاعدا، ذكورهم وإناثهم في القسمة والاستحقاق سواء",
+      "arabic": "فَاِنۡ کَانُوۡۤا اَکۡثَرَ مِنۡ ذٰلِکَ فَہُمۡ شُرَکَآءُ فِی الثُّلُثِ",
+      "sourceRow": "2",
+      "chapter": "أحوال أولاد الأم (الإخوة والأخوات لإم)"
+    },
+    {
+      "id": "maternalSibling-3",
+      "condition": "maternal.blocked",
+      "keys": [
+        "maternalBrother",
+        "maternalSister"
+      ],
+      "title": "يسقطون بالولد وولد الابن وإن سفل، وبالأب والجد بالاتفاق",
+      "arabic": "للقاعدة العامة: «من أدلى إلى الميت بواسطة لا يرث مع وجود تلك الواسطة»",
+      "sourceRow": "3",
+      "chapter": "أحوال أولاد الأم (الإخوة والأخوات لإم)"
+    },
+    {
+      "id": "husband-1",
+      "condition": "husband.no-descendant",
+      "keys": [
+        "husband"
+      ],
+      "title": "النصف عند عدم الولد وولد الابن وإن سفل",
+      "arabic": "وَلَکُمۡ نِصۡفُ مَا تَرَکَ اَزۡوَاجُکُمۡ اِنۡ لَّمۡ یَکُنۡ لَّہُنَّ وَلَدٌ (سورة النساء: ١٢)",
+      "sourceRow": "1",
+      "chapter": "أحوال الزوج"
+    },
+    {
+      "id": "husband-2",
+      "condition": "husband.with-descendant",
+      "keys": [
+        "husband"
+      ],
+      "title": "الربع مع الولد أو ولد الابن وإن سفل",
+      "arabic": "فَاِنۡ کَانَ لَہُنَّ وَلَدٌ فَلَکُمُ الرُّبُعُ (سورة النساء: ١٢)",
+      "sourceRow": "2",
+      "chapter": "أحوال الزوج"
+    },
+    {
+      "id": "wife-1",
+      "condition": "wife.no-descendant",
+      "keys": [
+        "wife"
+      ],
+      "title": "الربع للواحدة فصاعدة عند عدم الولد وولد الابن وإن سفل.",
+      "arabic": "وَلَہُنَّ الرُّبُعُ مِمَّا تَرَکۡتُمۡ اِنۡ لَّمۡ یَکُنۡ لَّکُمۡ وَلَدٌ (سورة النساء: ١٢)",
+      "sourceRow": "1",
+      "chapter": "أحوال الزوجة"
+    },
+    {
+      "id": "wife-2",
+      "condition": "wife.with-descendant",
+      "keys": [
+        "wife"
+      ],
+      "title": "الثمن مع الولدأو ولد الابن وإن سفل.",
+      "arabic": "فَاِنۡ کَانَ لَکُمۡ وَلَدٌ فَلَہُنَّ الثُّمُنُ (سورة النساء: ١٢)",
+      "sourceRow": "2",
+      "chapter": "أحوال الزوجة"
+    },
+    {
+      "id": "daughter-1",
+      "condition": "daughter.one",
+      "keys": [
+        "daughter"
+      ],
+      "title": "النصف للواحدة",
+      "arabic": "وَاِنۡ کَانَتۡ وَاحِدَۃً فَلَہَا النِّصۡفُ",
+      "sourceRow": "1",
+      "chapter": "أحوال بنات الصلب"
+    },
+    {
+      "id": "daughter-2",
+      "condition": "daughter.multiple",
+      "keys": [
+        "daughter"
+      ],
+      "title": "الثلثان للاثنتين فصاعدة",
+      "arabic": "فَاِنۡ کُنَّ نِسَآءً فَوۡقَ اثۡنَتَیۡنِ فَلَہُنَّ ثُلُثَا مَا تَرَکَ",
+      "sourceRow": "2",
+      "chapter": "أحوال بنات الصلب"
+    },
+    {
+      "id": "daughter-3",
+      "condition": "daughter.with-son",
+      "keys": [
+        "daughter",
+        "son"
+      ],
+      "title": "مع الابن للذكر مثل حظ الأنثيين وهو يعصبهنَّ.",
+      "arabic": "یُوۡصِیۡکُمُ اللّٰہُ فِیۡۤ اَوۡلَادِکُمۡ ٭ لِلذَّکَرِ مِثۡلُ حَظِّ الۡاُنۡثَیَیۡنِ",
+      "sourceRow": "3",
+      "chapter": "أحوال بنات الصلب"
+    },
+    {
+      "id": "sonsDaughter-1",
+      "condition": "sonsDaughter.one",
+      "keys": [
+        "sonsDaughter"
+      ],
+      "title": "النصف للواحدة",
+      "arabic": "وَاِنۡ کَانَتۡ وَاحِدَۃً فَلَہَا النِّصۡفُ",
+      "sourceRow": "1",
+      "chapter": "أحوال بنات الابن"
+    },
+    {
+      "id": "sonsDaughter-2",
+      "condition": "sonsDaughter.multiple",
+      "keys": [
+        "sonsDaughter"
+      ],
+      "title": "الثلثان للاثنتين فصاعدة عند عدم بنات الصلب",
+      "arabic": "فَاِنۡ کُنَّ نِسَآءً فَوۡقَ اثۡنَتَیۡنِ فَلَہُنَّ ثُلُثَا مَا تَرَکَ",
+      "sourceRow": "2",
+      "chapter": "أحوال بنات الابن"
+    },
+    {
+      "id": "sonsDaughter-3",
+      "condition": "sonsDaughter.with-daughter",
+      "keys": [
+        "sonsDaughter"
+      ],
+      "title": "ولهن السدس مع الواحدة الصلبية تكملة للثلثين",
+      "arabic": "قَضَى النَّبِيُّ ﷺ: لِلاِبْنَةِ النِّصْفُ، وَلاِبْنَةِ ابْنٍ السُّدُسُ تَكْمِلَةَ الثُّلُثَيْنِ . البخاري ( 6736)",
+      "sourceRow": "3",
+      "chapter": "أحوال بنات الابن"
+    },
+    {
+      "id": "sonsDaughter-4",
+      "condition": "sonsDaughter.blocked-by-daughters",
+      "keys": [
+        "sonsDaughter"
+      ],
+      "title": "لا يرثن مع الصلبيتين",
+      "arabic": "القاعدة : لا يزاد حق البنات على الثلثين",
+      "sourceRow": "4",
+      "chapter": "أحوال بنات الابن"
+    },
+    {
+      "id": "sonsDaughter-5",
+      "condition": "sonsDaughter.with-grandson",
+      "keys": [
+        "sonsDaughter",
+        "sonsSon"
+      ],
+      "title": "إذا كان غلام بحذائهن أو أسفل منهن فيُعَصِّبُهُنَّوالباقي بينهم للذكر مثل حظ الأنثيين",
+      "arabic": "یُوۡصِیۡکُمُ اللّٰہُ فِیۡۤ اَوۡلَادِکُمۡ ٭ لِلذَّکَرِ مِثۡلُ حَظِّ الۡاُنۡثَیَیۡنِ",
+      "sourceRow": "5",
+      "chapter": "أحوال بنات الابن"
+    },
+    {
+      "id": "sonsDaughter-6",
+      "condition": "sonsDaughter.blocked-by-son",
+      "keys": [
+        "sonsDaughter"
+      ],
+      "title": "يسقطن بالابن.",
+      "arabic": "للقاعدة العامة: «من أدلى إلى الميت بواسطة لا يرث مع وجود تلك الواسطة»",
+      "sourceRow": "6",
+      "chapter": "أحوال بنات الابن"
+    },
+    {
+      "id": "fullSibling-1",
+      "condition": "fullSister.one",
+      "keys": [
+        "fullBrother",
+        "fullSister"
+      ],
+      "title": "النصف للواحدة",
+      "arabic": "وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ النساء:176",
+      "sourceRow": "1",
+      "chapter": "أحوال الأخوات لأب وأمّ"
+    },
+    {
+      "id": "fullSibling-2",
+      "condition": "fullSister.multiple",
+      "keys": [
+        "fullBrother",
+        "fullSister"
+      ],
+      "title": "الثلثان للاثنتين فصاعدةً",
+      "arabic": "فَإِنْ كَانَتَا اثْنَتَيْنِ فَلَهُمَا الثُّلُثَانِ النساء:176",
+      "sourceRow": "2",
+      "chapter": "أحوال الأخوات لأب وأمّ"
+    },
+    {
+      "id": "fullSibling-3",
+      "condition": "fullSibling.with-brother",
+      "keys": [
+        "fullBrother",
+        "fullSister"
+      ],
+      "title": "مع الأخ لأب وأم للذكر مثل حظ الأنثيين، يصرن به عصبة؛ لاستوائهم في القرابة إلى الميت",
+      "arabic": "وَإِنْ كَانُوا إِخْوَةً رِجَالًا وَنِسَاءً فَلِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ النساء:176",
+      "sourceRow": "3",
+      "chapter": "أحوال الأخوات لأب وأمّ"
+    },
+    {
+      "id": "fullSibling-4",
+      "condition": "fullSibling.asabah-with-female-descendant",
+      "keys": [
+        "fullBrother",
+        "fullSister"
+      ],
+      "title": "يصرن عصبة مع البنات أو بنات الابن",
+      "arabic": "وروى عن معاذ بن جبل، وابن مسعود، وعمر، وعلي، وزيد وجمهور من الصحابة أن الأخوات لأبوين، أو لأب عصبة مع البنات",
+      "sourceRow": "4",
+      "chapter": "أحوال الأخوات لأب وأمّ"
+    },
+    {
+      "id": "fullSibling-5",
+      "condition": "fullSibling.blocked",
+      "keys": [
+        "fullBrother",
+        "fullSister"
+      ],
+      "title": "يسقطون بالابن وابن الابن وإن سفل، وبالأب بالاتفاق، وبالجدّ عند أبي حنيفة (ر)",
+      "arabic": "للقاعدة العامة: «من أدلى إلى الميت بواسطة لا يرث مع وجود تلك الواسطة»",
+      "sourceRow": "5",
+      "chapter": "أحوال الأخوات لأب وأمّ"
+    },
+    {
+      "id": "paternalSister-1",
+      "condition": "paternalSister.one",
+      "keys": [
+        "paternalBrother",
+        "paternalSister"
+      ],
+      "title": "النصف للواحدة",
+      "arabic": "وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ النساء:176",
+      "sourceRow": "1",
+      "chapter": "أحوال الأخوات لأب"
+    },
+    {
+      "id": "paternalSister-2",
+      "condition": "paternalSister.multiple",
+      "keys": [
+        "paternalBrother",
+        "paternalSister"
+      ],
+      "title": "الثلثان للاثنتين فصاعدةًعندعدم الأخوات لأب وأم",
+      "arabic": "فَإِنْ كَانَتَا اثْنَتَيْنِ فَلَهُمَا الثُّلُثَانِ النساء:176",
+      "sourceRow": "2",
+      "chapter": "أحوال الأخوات لأب"
+    },
+    {
+      "id": "paternalSister-3",
+      "condition": "paternalSister.with-full-sister",
+      "keys": [
+        "paternalBrother",
+        "paternalSister"
+      ],
+      "title": "لهن السدس مع الأخت لأب وأمّ تكملة للثلثين",
+      "arabic": "قَضَى النَّبِيُّ ﷺ: لِلاِبْنَةِ النِّصْفُ، وَلاِبْنَةِ ابْنٍ السُّدُسُ تَكْمِلَةَ الثُّلُثَيْنِ . البخاري ( 6736)",
+      "sourceRow": "3",
+      "chapter": "أحوال الأخوات لأب"
+    },
+    {
+      "id": "paternalSister-4",
+      "condition": "paternalSister.blocked-by-full-sisters",
+      "keys": [
+        "paternalBrother",
+        "paternalSister"
+      ],
+      "title": "لا يرثن مع الأختين",
+      "arabic": "القاعدة : لا يزاد حق البنات على الثلثين",
+      "sourceRow": "4",
+      "chapter": "أحوال الأخوات لأب"
+    },
+    {
+      "id": "paternalSister-5",
+      "condition": "paternalSibling.with-brother",
+      "keys": [
+        "paternalBrother",
+        "paternalSister"
+      ],
+      "title": "إذا كان معهن أخ لأب فيعصبهن والباقي بينهم للذكر مثل حظ الأنثيين",
+      "arabic": "وَإِنْ كَانُوا إِخْوَةً رِجَالًا وَنِسَاءً فَلِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ النساء:176",
+      "sourceRow": "5",
+      "chapter": "أحوال الأخوات لأب"
+    },
+    {
+      "id": "paternalSister-6",
+      "condition": "paternalSister.asabah-with-female-descendant",
+      "keys": [
+        "paternalBrother",
+        "paternalSister"
+      ],
+      "title": "يصرن عصبة مع البنات أو بنات الابن",
+      "arabic": "وروى عن معاذ بن جبل، وابن مسعود، وعمر، وعلي، وزيد وجمهور من الصحابة أن الأخوات لأبوين، أو لأب عصبة مع البنات",
+      "sourceRow": "6",
+      "chapter": "أحوال الأخوات لأب"
+    },
+    {
+      "id": "paternalSister-7",
+      "condition": "paternalSibling.blocked",
+      "keys": [
+        "paternalBrother",
+        "paternalSister"
+      ],
+      "title": "بنو الأعيان والعلات كلهم يسقطون بالابن وابن الابن وإن سفل، وبالأب بالاتفاق، وبالجدّ عند أبي حنيفة (ر) ، ويسقط بنو العلات أيضًا بالأخ لأب وأم وبالأخت لأب وأم إذا صارت عصبة.",
+      "arabic": "للقاعدة العامة: «من أدلى إلى الميت بواسطة لا يرث مع وجود تلك الواسطة»",
+      "sourceRow": "7",
+      "chapter": "أحوال الأخوات لأب"
+    },
+    {
+      "id": "mother-1",
+      "condition": "mother.one-sixth",
+      "keys": [
+        "mother"
+      ],
+      "title": "السدس مع الولد أو ولد الابن وإن سفل، أو مع الاثنين من الإخوة والأخوات فصاعدا من أي جهة كانا",
+      "arabic": "وَلِاَبَوَیۡہِ لِکُلِّ وَاحِدٍ مِّنۡہُمَا السُّدُسُ # فَاِنۡ کَانَ لَہٗۤ اِخۡوَۃٌ فَلِاُمِّہِ السُّدُسُ",
+      "sourceRow": "1",
+      "chapter": "أحوال الأمّ"
+    },
+    {
+      "id": "mother-2",
+      "condition": "mother.one-third",
+      "keys": [
+        "mother"
+      ],
+      "title": "ثُلُثُ الكل عند عدمالولد أو ولد الابن وإن سفل، أو مع الاثنين من الإخوة والأخوات فصاعدا من أي جهة كانا",
+      "arabic": "فَاِنۡ لَّمۡ یَکُنۡ لَّہٗ وَلَدٌ وَّوَرِثَہٗۤ اَبَوٰہُ فَلِاُمِّہِ الثُّلُثُ",
+      "sourceRow": "2",
+      "chapter": "أحوال الأمّ"
+    },
+    {
+      "id": "mother-3",
+      "condition": "mother.third-of-remainder",
+      "keys": [
+        "mother"
+      ],
+      "title": "ثلث ما بقي بعد فرض أحد الزوجين، وذلك في مسألتين\nزوج وأبوين، وزوجة وأبوين",
+      "arabic": "لأن عمر رضي الله عنه قضى فيهما بهذا القضاء ، فاتبعه على ذلك عثمان ، وزيد بن ثابت ، وابن مسعود",
+      "sourceRow": "3",
+      "chapter": "أحوال الأمّ"
+    },
+    {
+      "id": "grandmother-1",
+      "condition": "grandmother.one-sixth",
+      "keys": [
+        "paternalGrandmother",
+        "maternalGrandmother"
+      ],
+      "title": "السدس لأم كانت أو لأب واحدة كانت أو أكثر إذا كن ثابتاتمتحاذيات في الدرجة.",
+      "arabic": "عن ابن عباس -رضي اللَّه عنهما-: (أن النبي -صلى اللَّه عليه وسلم- أعطى الجدة السدس رواه: ابن أبي شيبة في مصنفه، رقم (٣١٧٩٨).",
+      "sourceRow": "1",
+      "chapter": "أحوال الجدّة"
+    },
+    {
+      "id": "grandmother-2",
+      "condition": "grandmother.blocked",
+      "keys": [
+        "paternalGrandmother",
+        "maternalGrandmother"
+      ],
+      "title": "يسقطن كلهن بالأم، والأبويات أيضا بالأب وكذلك بالجد إلا أم الأب وإن علت فإنها ترث مع الجد لأنها ليست من قبله، والقربي من أي جهة كانت تحجب البعدى من أي جهة كانت وارثة كانت القربى أو محجوبة وإذا كانت الجدة ذات قرابة واحدة كأم أم الأب، والأخرى ذات قرابتين أو أكثر كأم أم الأم وهي أيضا أم أب الأب يقسم السدس بينهما عند أبي يوسف له أنصافا باعتبار الأبدان، وعند محمد أثلاثا باعتبار الجهات.",
+      "arabic": "للقاعدة العامة: «من أدلى إلى الميت بواسطة لا يرث مع وجود تلك الواسطة»",
+      "sourceRow": "2",
+      "chapter": "أحوال الجدّة"
+    }
+  ]
+}
